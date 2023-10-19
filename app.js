@@ -7,7 +7,7 @@ function verify() {
 
   if (userLogin == username && userPassword == password) {
     document.getElementById("status").innerText = "Login Successful"
-    window.location.assign("https://kyle-davie.github.io/publishlive/success.html")
+    window.location.assign("https://kyle-davie.github.io/publishlive/root/success.html")
     
   } else {
     document.getElementById("status").innerText = "failed";
